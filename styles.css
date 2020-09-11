@@ -1,0 +1,27 @@
+#navbar {
+    width: 100%;
+    display: block;
+}
+.navbar-item-container {
+    display: inline;
+}
+#bottom-bar {
+    background-color: gray;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+}
+.right-list {
+    float: right;
+}
+.container-item
+{
+    color: blueviolet;
+    display: block;
+    padding: 8px;
+}
