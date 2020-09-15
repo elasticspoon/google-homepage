@@ -13,9 +13,15 @@ body {
     padding: 0px 30px;
     position: relative;
     top: 16px;
+    align-items: center;
+
 }
-.navbar-item-container {
-    display: inline;
+#navbar .left-list{
+    opacity: 75%;
+}
+#right-top-list {
+    display: flex;
+    align-items: center;
 }
 #bottom-bar {
     display: flex;
@@ -44,11 +50,25 @@ li {
 }
 #sign-in-btn {
     padding: 0px 12px;
+    margin-left: 12px;
     background-color: rgb(66, 133, 244);
     color: white;
     border-radius: 2px;
     border: 1px;
     line-height: 28px;
+    font-weight: bold;
+}
+#apps-btn {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    opacity: 55%;
+    background-size: 528px 68px;
+    background-image: url('//web.archive.org/web/20191130234759im_/https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-position: -132px -38px;
+    padding: 0px;
+    margin-left: 7.5px;
 }
 #about-btn {
     padding-left: 0px;
@@ -75,16 +95,22 @@ li {
     flex-direction: column;
     align-items: center;
     height: 100%;
-    justify-content: center;
+
 }
-.central-item {
-    margin: 10px auto;
+#google-logo {
+    margin-top: 59px;
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+
 }
 #search-bar-container {
+    margin-top: 18px;
+    margin-bottom: 18px;
     display: flex;
     flex-direction: row;
-    width: 582px;
-    height: 44px;
+    width: 484px;
+    height: 46px;
     border-radius: 24px;
     border: 1px solid rgb(223, 225, 229);
     align-items: center;
@@ -110,14 +136,26 @@ li {
     color: #222;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
 }
+#search-bar-container:hover {
+    border-color: rgba(223, 225, 229, 0);
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
 #mag-glass {
-    width: 14.58px;
-    height: 14.58px;
+    width: 20px;
+    height: 20px;
+    color: #9AA0A6;
+    fill: currentColor;
+    display: inline-block;
 }
 #microphone {
-    width: 24px;
+    background: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
     height: 24px;
+    width: 24px;
+    background-size: 24px;
+    display: inline-block;
 }
 #search-bar-container-inner {
     padding: 5px 8px 0px 14px;
+    line-height: 34px;
+    font: 16px;
 }
