@@ -16,8 +16,9 @@ body {
     align-items: center;
 
 }
-#navbar .left-list{
+#left-top-list .container-item{
     opacity: 75%;
+    color: black;
 }
 #right-top-list {
     display: flex;
@@ -85,11 +86,12 @@ li {
 }
 .container-item:hover {
     text-decoration: underline;
-    color: black;
-    opacity: 85%;
 }
-#navbar .container-item:hover {
+#navbar .right-list .container-item:hover {
     color: rgb(95, 99, 104);
+}
+#apps-btn:hover {
+    opacity: 100%;
 }
 #central-container {
     display: flex;
